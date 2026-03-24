@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Cate Sandstrom</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="description" content="Get in touch with Cate Sandstrom for bookings and inquiries.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo" style="text-decoration: none; color: inherit;">Cate Sandstrom</a>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="duet.html">Fiddle Duet</a></li>
+                    <li><a href="workshop.html">Tune Workshop</a></li>
+                    <li><a href="bootcamp.html">Bootcamp</a></li>
+                    <li><a href="calendar.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="now.html">Now</a></li>
+                    <li><a href="https://www.facebook.com/catesandstrommusic" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/catesandstrom/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container" style="padding-top: 4rem;">
+        <div class="content-section">
+            <h1 class="text-center" style="margin-bottom: 3rem;">Contact</h1>
+            
+            <div class="two-column" style="align-items: stretch;">
+                <div>
+                    <p>I'd love to hear from you! Fill out this form and I'll respond as soon as possible.</p>
+                    
+                    <p><em>I typically respond within 24 hours Mon-Fri.</em></p>
+                    
+                    <p>For bookings or more information, you can also email me at <a href="mailto:CateSandstromMusic@gmail.com">CateSandstromMusic@gmail.com</a>.</p>
+                    
+                    <!-- EDIT: This form uses Formspree - you'll need to sign up at formspree.io and replace YOUR_FORM_ID -->
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email <span style="color: red;">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Leave us a message...</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+                
+                <div>
+                    <!-- Photo - same height as form -->
+                    <img src="images/contact-photo.jpg" alt="Cate Sandstrom" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">©2026 Cate Sandstrom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
