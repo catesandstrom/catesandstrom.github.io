@@ -1,0 +1,49 @@
+IMAGE PLACEHOLDERS NEEDED
+=========================
+
+Replace these placeholder names with your actual photos:
+
+HOMEPAGE:
+- hero.jpg (Large photo of you performing - 1200x800px recommended)
+- teaching-1.jpg (Photo of you teaching/playing classical violin)
+- teaching-2.jpg (Photo of you teaching/playing Irish fiddle)
+- carousel-1.jpg through carousel-5.jpg (Performance photos for rotating band)
+
+ABOUT PAGE:
+- about-photo.jpg (Professional portrait of you - 800x800px)
+
+MUSIC PAGE:
+- Add your YouTube video IDs directly in the HTML
+
+FIDDLE DUET PAGE:
+- brian-conway.jpg (Photo of Brian Conway)
+- cate-duet.jpg (Photo of you from duet performances)
+
+CALENDAR PAGE:
+- calendar-hero.jpg (Wide performance photo - 1200x400px)
+
+CONTACT PAGE:
+- contact-photo.jpg (Professional photo of you)
+
+NOW PAGE:
+- now-mclean.jpg (Photo with McLean Avenue Band)
+- now-teaching.jpg (Photo of you teaching)
+- now-acting.jpg (Still from Life & Beth)
+- now-travel.jpg (Photo from Portugal)
+- now-pottery.jpg (Photo of your pottery work)
+
+CONSULTING PAGE:
+- consulting-photo.jpg (Professional headshot - square format)
+
+HOW TO ADD YOUR PHOTOS:
+1. Resize photos to recommended dimensions (or close to them)
+2. Name them exactly as listed above
+3. Upload to the /images folder
+4. Photos should be .jpg format for best web performance
+5. Keep file sizes under 500KB each for fast loading
+
+TIPS:
+- Use high-quality photos but compress them for web
+- Tools like TinyPNG or Squoosh can compress without quality loss
+- Landscape photos work best for hero/carousel images
+- Square or portrait photos work best for about/contact pages
